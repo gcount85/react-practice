@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+.black-nav {
+  display: flex;
+  background: lightcoral;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 3px solid lightcoral;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +51,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
